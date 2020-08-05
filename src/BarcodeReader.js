@@ -354,7 +354,7 @@ if (typeof exports !== 'undefined') {
   if (typeof module !== 'undefined' && module.exports) {
       exports = module.exports = BarcodeReader;
   }
-  exports.BarcodeReader = BarcodeReader;
+  // exports.BarcodeReader = BarcodeReader;
 } else {
   root.BarcodeReader = BarcodeReader;
 }

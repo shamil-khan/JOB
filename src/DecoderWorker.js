@@ -2963,7 +2963,7 @@ if (typeof exports !== 'undefined') {
   if (typeof module !== 'undefined' && module.exports) {
       exports = module.exports = decoderWorkerBlobString;
   }
-  exports.decoderWorkerBlobString = decoderWorkerBlobString;
+  // exports.decoderWorkerBlobString = decoderWorkerBlobString;
 } else {
   root.decoderWorkerBlobString = decoderWorkerBlobString;
 }

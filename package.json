@@ -1,6 +1,6 @@
 {
-  "name": "barcode-reader",
-  "version": "1.6.1",
+  "name": "@shamil-khan/barcode-reader",
+  "version": "1.6.2",
   "description": "A Barcode scanner capapable of reading Code128, Code93, Code39, Standard/Industrial 2 of 5, Interleaved 2 of 5, Codabar and EAN-13 barcodes in javascript.",
   "main": "src/BarcodeReader.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EddieLa/BarcodeReader.git"
+    "url": "git+https://github.com/shamil-khan/barcode-reader.git"
   },
   "keywords": [
     "barcode",
@@ -18,21 +18,22 @@
     "Code39",
     "EAN-13"
   ],
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "author": {
-    "name": "Eddie Larsson",
-    "email": "eddie.larsson245@gmail.com",
-    "url": ""
+    "name": "shamil-khan",
+    "email": "shamil.ahmed@gmail.com",
+    "url": "https://github.com/shamil-khan/barcode-reader.git"
   },
   "contributors": [
     {
-      "name": "Sean Gates",
-      "email": "oregonwebdev@gmail.com",
-      "url": ""
+      "name": "Eddie Larsson",
+      "email": "eddie.larsson245@gmail.com",
+        "url": "https://github.com/EddieLa/JOB.git"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EddieLa/BarcodeReader/issues"
+    "url": "https://github.com/shamil-khan/barcode-reader/issues"
   },
-  "homepage": "https://github.com/EddieLa/BarcodeReader#readme"
+  "homepage": "https://github.com/shamil-khan/barcode-reader#readme"
 }

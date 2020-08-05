@@ -14,7 +14,7 @@
     if (typeof module !== 'undefined' && module.exports) {
       exports = module.exports = EXIF;
     }
-    exports.EXIF = EXIF;
+    // exports.EXIF = EXIF;
   } else {
     root.EXIF = EXIF;
   }
